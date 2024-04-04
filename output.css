@@ -680,6 +680,16 @@ h1,
   margin-bottom: 1.5rem;
 }
 
+.my-0{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mb-14{
   margin-bottom: 3.5rem;
 }
@@ -857,6 +867,14 @@ h1,
   gap: 2rem;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.whitespace-nowrap{
+  white-space: nowrap;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -1011,6 +1029,10 @@ h1,
   padding: 1.5rem;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1144,6 +1166,11 @@ h1,
 .text-yellow-800{
   --tw-text-opacity: 1;
   color: rgb(133 77 14 / var(--tw-text-opacity));
+}
+
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .shadow-md{
