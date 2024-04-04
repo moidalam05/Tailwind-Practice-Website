@@ -5,11 +5,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body{
+@layer base {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
         @apply font-secondary;
     }
-    h1, h2, h3{
+
+    h1,
+    h2,
+    h3 {
         @apply font-primary text-gray-800 font-medium;
     }
 }
