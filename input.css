@@ -8,21 +8,22 @@
 @layer base {
 
     html,
-        body {
-            overflow-x: hidden;
-        }
-    
-        body {
-            @apply font-body;
-        }
-    
-        h1,
-        h2,
-        h3 {
-            @apply font-display text-gray-800 font-medium;
-        }
-    
-        .container {
-            @apply px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-10;
-        }
+    body {
+        @apply overflow-x-hidden;
+        /* Remove the colon */
+    }
+
+    body {
+        @apply font-secondary;
+    }
+
+    h1,
+    h2,
+    h3 {
+        @apply font-primary text-gray-800 font-medium;
+    }
+
+    .container {
+        @apply px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-10;
+    }
 }
